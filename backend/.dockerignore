@@ -1,0 +1,22 @@
+# Python virtual environment - prevents local venv from being copied
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Local environment files
+.env.local
+.env.*.local

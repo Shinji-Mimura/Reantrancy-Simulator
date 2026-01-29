@@ -1,0 +1,16 @@
+# Dependencies - CRITICAL: prevents macOS binaries from being copied to Linux container
+node_modules
+npm-debug.log
+
+# Build outputs - prevents stale builds from interfering
+dist
+build
+
+# IDE and system files
+.vscode/
+.DS_Store
+*.log
+
+# Local environment files
+.env.local
+.env.*.local
